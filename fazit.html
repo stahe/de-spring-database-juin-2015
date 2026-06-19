@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://stahe.github.io/de-spring-database-juin-2015/fazit.html">
       
       
-        <link rel="prev" href="domanenubergreifende-zugriffsverwaltung.html">
+        <link rel="prev" href="verwaltung-domanenubergreifender-zugriffe.html">
       
       
         <link rel="next" href="anhange.html">
@@ -305,14 +305,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einleitung.html" class="md-nav__link">
+      <a href="einfuhrung.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Einleitung
+    1. Einführung
   
 
     
@@ -339,7 +339,7 @@
   <span class="md-ellipsis">
     
   
-    2. Einführung in das Spring Framework
+    2. Einführung in das Spring-Framework
   
 
     
@@ -359,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einfuhrung-in-die-jdbc-api.html" class="md-nav__link">
+      <a href="einfuhrung-in-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. Einführung in die JDBC-API
+    3. Einführung in API JDBC
   
 
     
@@ -521,14 +521,14 @@
   
   
     <li class="md-nav__item">
-      <a href="generieren-von-datenbanken-aus-jpa-entitaten.html" class="md-nav__link">
+      <a href="erstellung-der-datenbanken-aus-den-entitaten-jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. Generieren von Datenbanken aus JPA-Entitäten
+    9. Erstellung der Datenbanken aus den Entitäten JPA
   
 
     
@@ -737,14 +737,14 @@
   
   
     <li class="md-nav__item">
-      <a href="eine-datenbank-im-web-verfugbar-machen.html" class="md-nav__link">
+      <a href="eine-datenbank-im-web-bereitstellen.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    17. Eine Datenbank im Web verfügbar machen
+    17. Eine Datenbank im Web bereitstellen
   
 
     
@@ -764,14 +764,14 @@
   
   
     <li class="md-nav__item">
-      <a href="ein-fur-den-json-webdienst-programmierter-client.html" class="md-nav__link">
+      <a href="ein-fur-den-webdienst--json-programmierter-client.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    18. Ein für den /JSON-Webdienst programmierter Client
+    18. Ein für den Webdienst / jSON programmierter Client
   
 
     
@@ -845,14 +845,14 @@
   
   
     <li class="md-nav__item">
-      <a href="domanenubergreifende-zugriffsverwaltung.html" class="md-nav__link">
+      <a href="verwaltung-domanenubergreifender-zugriffe.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    21. Domänenübergreifende Zugriffsverwaltung
+    21. Verwaltung domänenübergreifender Zugriffe
   
 
     
@@ -946,23 +946,23 @@
 
 
 
-<p><a id="refheading14681224987110"></a></p>
-<h1 id="22-fazit">22. <span style="color: #365f91">Fazit</span></h1>
-<p><span style="color: #000000">Lassen Sie uns noch einmal zusammenfassen, was wir in diesem Dokument behandelt haben. </span>Wir haben zwei [DAO]-Schichten unter Verwendung einer der folgenden beiden Architekturen untersucht:</p>
+<p><span id="refheading14681224987110" name="refheading14681224987110" class="odt-bookmark-anchor"></span></p>
+<h1 id="22-fazit">22. <span style="color: #365f91"><strong>Fazit</strong></span></h1>
+<p><span style="color: #000000">Fassen wir noch einmal zusammen, was wir in diesem Dokument behandelt haben. </span>Wir haben zwei Schichten [DAO] mit einer der beiden folgenden Architekturen untersucht:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000049C0000010776D1AF9E.png" width="590" height="131" style="display:inline-block; margin:4px;width:15.61cm;height:3.478cm;" class="odt-zoomable" data-zoom-src="images/100000000000049C0000010776D1AF9E.png" /></td></tr></table>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004AF000000FEE9F16F00.png" width="600" height="127" style="display:inline-block; margin:4px;width:15.863cm;height:3.36cm;" class="odt-zoomable" data-zoom-src="images/10000000000004AF000000FEE9F16F00.png" /></td></tr></table>
 
-<p>Die [DAO1]-Schicht wurde mit <strong>Spring JDBC</strong> und die [DAO2]-Schicht mit <strong>Spring JPA</strong> implementiert<strong>.</strong> Die [DAO1]- und [DAO2]-Schichten implementierten dieselbe [IDAO]-Schnittstelle, was es uns ermöglichte, einen einzigen Test [JUnitTestDao] zu schreiben, um beide [DAO]-Schichten zu testen;</p>
-<p>Nachdem dies erledigt war, haben wir die [IDAO]-Schnittstelle wie folgt im Web verfügbar gemacht:</p>
+<p>Die Schicht [DAO1] wurde mit <strong>Spring JDBC</strong> implementiert und die Schicht [DAO2] mit <strong>Spring JPA.</strong> Die Schichten [DAO1] und [DAO2] implementierten dieselbe Schnittstelle [IDAO], wodurch es möglich war,einen einzigen Test [JUnitTestDao] zu schreiben, um die beiden Schichten [DAO] zu testen;</p>
+<p>Nachdem dies erledigt war, haben wir die Schnittstelle [IDAO] wie folgt im Web bereitgestellt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004AA00000296328D383D.png" width="597" height="331" style="display:inline-block; margin:4px;width:15.796cm;height:8.758cm;" class="odt-zoomable" data-zoom-src="images/10000000000004AA00000296328D383D.png" /></td></tr></table>
 
 <ul>
-  <li>In [1] wurde die [IDAO]-Schicht über eine mit <b>Spring MVC </b>implementierte Webschicht [2] im Web verfügbar gemacht. Tatsächlich ist es die [IDAO]-Schnittstelle, die verfügbar gemacht wird, und wir haben zwei Versionen des Webdienstes erstellt, je nachdem, ob diese Schnittstelle mit einer [DAO-JDBC]- oder einer [DAO-JPA-JDBC]-Architektur implementiert ist;
+  <li>In [1] wurde die Schicht [IDAO] über eine von <b>Spring MVC </b>implementierte Webschicht [2] im Web verfügbar gemacht. Es handelt sich tatsächlich um die Schnittstelle [IDAO], die verfügbar gemacht wurde, und wir haben zwei Versionen des Webdienstes erstellt, je nachdem, ob diese Schnittstelle mit einer Architektur vom Typ [DAO-JDBC] oder [DAO-JPA-JDBC] implementiert ist;
   </li>
-  <li>In [B] nutzt ein Remote-Client die vom Webservice bereitgestellten URLs, die Zugriff auf die Methoden der [IDAO-Server]-Schicht gewähren. Wir haben sichergestellt, dass die [DAO-Client]-Schicht [3] die [IDAO-Server]-Schnittstelle [1] implementiert. Dadurch konnten wir denselben [JUnitTestDao]-Test wiederverwenden, der bereits zweimal zum Einsatz gekommen war;
+  <li>In [B] nutzt ein Remote-Client die vom Webdienst bereitgestellten URL, die Zugriff auf die Methoden der Schicht [IDAO-serveur] gewähren. Es wurde sichergestellt, dass die Schicht [DAO-Client] [3] die Schnittstelle [IDAO-serveur] [1] implementiert. Dadurch konnten wir denselben Test [JUnitTestDao] verwenden, der bereits zweimal zum Einsatz gekommen war;
   </li>
-  <li>In [3] wurde die [DAO-Client]-Schicht unter Verwendung von <b>Spring RestTemplate </b>implementiert;
+  <li>in [3] wurde die Schicht [DAO-client] mit <b>Spring RestTemplate </b>implementiert;
   </li>
 </ul>
 
@@ -970,19 +970,19 @@
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000049D0000028A7325823B.png" width="591" height="325" style="display:inline-block; margin:4px;width:15.625cm;height:8.601cm;" class="odt-zoomable" data-zoom-src="images/100000000000049D0000028A7325823B.png" /></td></tr></table>
 
 <ul>
-  <li>In [5] durchläuft die HTTP-Anfrage des Clients eine mit <b>Spring Security </b>implementierte Authentifizierungsschicht;
+  <li>In [5] durchläuft die Anfrage HTTP des Clients eine mit <b>Spring Security </b>implementierte Authentifizierungsschicht;
   </li>
 </ul>
 
-<p>Daraufhin haben wir die bisherige Architektur wie folgt weiterentwickelt:</p>
+<p>Damit haben wir die bisherige Architektur wie folgt weiterentwickelt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000490000002863381F4FF.png" width="584" height="323" style="display:inline-block; margin:4px;width:15.452cm;height:8.546cm;" class="odt-zoomable" data-zoom-src="images/1000000000000490000002863381F4FF.png" /></td></tr></table>
 
 <ul>
-  <li>In [3] ist die Client-Anwendung selbst eine Webanwendung, die vom Webserver [4] bereitgestellt wird. Die Client-Anwendung zeigt im Browser ein Formular [5] an, über das die URLs des sicheren Webdienstes abgefragt werden können. Der HTTP-Zugriff auf den sicheren Webdienst wird von einer in JavaScript implementierten [jS]-Schicht abgewickelt. Diese Architektur nutzt sogenannte domänenübergreifende Anfragen:
+  <li>In [3] ist die Client-Anwendung selbst eine Webanwendung, die vom Webserver [4] bereitgestellt wird. Die Client-Anwendung zeigt im Browser ein Formular [5] an, über das die URL des gesicherten Webdienstes abgefragt werden können. Der Zugriff auf den gesicherten Webdienst erfolgt über eine in JavaScript implementierte Schicht. Diese Architektur nutzt sogenannte domänenübergreifende Anfragen:
     <ul>
-      <li>Der Webdienst stellt URLs der Form [http://machine1:port1/] bereit;
+      <li>Der Webdienst stellt URL in der Form [http://machine1:port1/] bereit;
       </li>
-      <li>die Client-Webanwendung wird von einer URL [http://machine2:port2/] heruntergeladen. Wenn [http://machine2:port2/] nicht mit [http://machine1:port1/] identisch ist (gleicher Rechner, gleicher Port), blockiert der Client-Browser HTTP-Aufrufe aus der [DAO-client-js]-Schicht. Um dieses Problem zu beheben, muss der Webdienst domänenübergreifende Anfragen zulassen;
+      <li>die Client-Webanwendung wird von einer URL-[http://machine2:port2/] heruntergeladen. Wenn [http://machine2:port2/] nicht mit [http://machine1:port1/] identisch ist (gleicher Rechner, gleicher Port), blockiert der Client-Browser die Aufrufe von HTTP aus der Schicht [DAO-client-js]. Um dieses Problem zu beheben, muss der Webdienst domänenübergreifende Anfragen zulassen;
       </li>
     </ul>
   </li>
@@ -1004,25 +1004,25 @@
   </li>
 </ul>
 
-<p>Für jedes dieser DBMS haben wir vier verschiedene [DAO]-Schichten entwickelt:</p>
+<p>Für jedes dieser SGBD wurden vier verschiedene Schichten [DAO] entwickelt:</p>
 <ul>
-  <li>eine mit Spring JDBC implementierte Schicht;
+  <li>eine mit Spring implementierte Schicht JDBC;
   </li>
-  <li>eine mit Spring JPA und dem Hibernate-JPA-Provider implementierte Schicht;
+  <li>eine mit Spring JPA und dem Hibernate-Anbieter JPA implementierte Schicht;
   </li>
-  <li>eine mit Spring JPA und dem EclipseLink-JPA-Provider implementierte Schicht;
+  <li>eine mit Spring JPA und dem Anbieter JPA EclipseLink implementierte Schicht;
   </li>
-  <li>eine mit Spring JPA und dem OpenJPA-JPA-Provider implementierte Schicht;
+  <li>eine mit Spring implementierte Schicht JPA und die Provider JPA sowie OpenJPA;
   </li>
 </ul>
 
-<p>Somit wurde eine Reihe von vierundzwanzig verschiedenen Konfigurationen vorgestellt. Es wurden große Anstrengungen im Hinblick auf die Code-Refaktorisierung unternommen:</p>
+<p>Es wurde also eine Reihe von vierundzwanzig verschiedenen Konfigurationen vorgestellt. Es wurden große Anstrengungen zur Faktorisierung unternommen:</p>
 <ul>
-  <li>Der Großteil des Codes wird nur einmal geschrieben. Er basiert auf zwei Maven-Konfigurationsprojekten:
+  <li>Der Großteil des Codes wurde nur einmal geschrieben. Er basiert auf zwei Maven-Konfigurationsprojekten:
     <ul>
-      <li>Das eine konfiguriert die JDBC-Schicht;
+      <li>Das eine konfiguriert die Schicht JDBC;
       </li>
-      <li>das andere konfiguriert die JPA-Schicht;
+      <li>das andere konfiguriert die Ebene JPA;
       </li>
     </ul>
   </li>
@@ -1032,41 +1032,41 @@
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000488000000F283F9D213.png" width="580" height="121" style="display:inline-block; margin:4px;width:15.346cm;height:3.201cm;" class="odt-zoomable" data-zoom-src="images/1000000000000488000000F283F9D213.png" /></td></tr></table>
 
-<p>Das Maven-Konfigurationsprojekt für die JDBC-Schicht [1] eines bestimmten DBMS ermöglicht:</p>
+<p>Das Maven-Konfigurationsprojekt für die Schicht JDBC [1] eines bestimmten SGBD ermöglicht:</p>
 <ul>
-  <li>das Importieren des JDBC-Treiberarchivs;
+  <li>das Treiberarchiv JDBC zu importieren;
   </li>
-  <li>die Zugangsdaten für die verwendete Datenbank sowie die verschiedenen SQL-Anweisungen zu definieren, die die [DAO1]-Schicht an den JDBC-Treiber sendet. Obwohl SQL standardisiert ist, stießen wir auf Portabilitätsprobleme, die hauptsächlich darauf zurückzuführen waren, dass Abfragen Tabellen- und Spaltennamen enthielten, die sich in bestimmten DBMS als verbotene Schlüsselwörter herausstellten (die Tabelle ROLES bei DB2, die Spalte PASSWORD bei Firebird). Darüber hinaus ist die Groß-/Kleinschreibung bei Spaltennamen normalerweise irrelevant, doch bei PostgreSQL stießen wir auf ein Problem bezüglich der ID-Spalte des Primärschlüssels in den Tabellen. Diese musste in Kleinbuchstaben als <i>„id“ </i>benannt werden;
+  <li>die Zugangsdaten für die verwendete Datenbank sowie die verschiedenen Befehle SQL festzulegen, die die Schicht [DAO1] an den Treiber JDBC sendet. Obwohl SQL standardisiert ist, traten Portabilitätsprobleme auf, die hauptsächlich darauf zurückzuführen waren, dass in den Abfragen Tabellen- und Spaltennamen vorkamen, die sich in bestimmten SGBD als unzulässige Schlüsselwörter erwiesen (Tabelle ROLES für DB2, Spalte PASSWORD für Firebird). Obwohl Spaltennamen normalerweise nicht zwischen Groß- und Kleinschreibung unterscheiden, trat bei PostgreSQL ein Problem mit der Spalte ID des Primärschlüssels der Tabellen auf. Das Programm verlangte, dass sie <i>„id“ </i>in Kleinbuchstaben heißen sollte;
   </li>
 </ul>
 
-<p>Die drei Maven-Projekte zur Konfiguration der JPA-Schicht [2] eines bestimmten DBMS ermöglichen:</p>
+<p>Die drei Maven-Konfigurationsprojekte der Schicht JPA, [2] und eines bestimmten SGBD ermöglichen:</p>
 <ul>
-  <li>das Importieren des JPA-Implementierungsarchivs;
+  <li>das Archiv der Implementierung „JPA“ zu importieren;
   </li>
-  <li>die Konfiguration der JPA-Implementierung, die für das jeweilige verbundene DBMS verwendet wird. Tatsächlich ist es die JPA-Schicht, die SQL-Befehle an die JDBC-Schicht sendet. Um effektiv zu sein, muss sie das DBMS kennen, damit sie ihm SQL-Befehle senden kann, die es erkennt. Diese Befehle können sowohl das proprietäre SQL dieses DBMS als auch dessen spezifische Funktionen (Datentypen, Sequenzen, Trigger, Prozeduren, automatische Generierung von Primärschlüsseln usw.) nutzen;
+  <li>die Konfiguration der Implementierung JPA, die für das jeweils verbundene SGBD verwendet wird. Tatsächlich ist es die Schicht JPA, die die Befehle SQL an die Schicht JDBC sendet. Um effizient zu arbeiten, muss sie den SGBD kennen, um ihm die Befehle SQL zu senden, die er erkennen wird. Diese Befehle können den SQL nutzen, der Eigentümer dieses SGBD ist, sowie dessen spezifische Eigenschaften (Datentypen, Sequenzen, Trigger, Prozeduren, automatische Generierung von Primärschlüsseln usw.);
   </li>
 </ul>
 
-<p>Wir haben daher vierundzwanzig Maven-Konfigurationsprojekte (4 Konfigurationen × 6 DBMS) erstellt, auf denen alle anderen Datenbankoperationsprojekte basierten. Da in den obigen Diagrammen die Schichten [DAO1] und [DAO2] dieselbe Schnittstelle bereitstellen, wurden die 24 Konfigurationen der beiden oben genannten Architekturen mit einer einzigen Testklasse [JUnitTestDao] getestet. Nachdem diese Architekturen verifiziert waren, gab es keine weiteren Schwierigkeiten:</p>
+<p>So wurden vierundzwanzig Maven-Konfigurationsprojekte (4 Konfigurationen × 6 SGBD) erstellt, auf denen alle anderen Projekte zur Nutzung der Datenbank basierten. Da in den obigen Schemata die Schichten [DAO1] und [DAO2] dieselbe Schnittstelle bieten, wurden die 24 Konfigurationen der beiden oben genannten Architekturen mit der einzigen Testklasse [JUnitTestDao] getestet. Nachdem diese Architekturen überprüft worden waren, gab es keine Schwierigkeiten mehr:</p>
 <ul>
-  <li>Das Maven-Projekt zur Veröffentlichung der Datenbank im Web basiert auf diesen beiden Architekturen. Daher gibt es auch hier 24 mögliche Konfigurationen;
+  <li>Das Maven-Projekt zur Veröffentlichung der Datenbank im Web basiert auf diesen beiden Architekturen. Auch hier gibt es also 24 mögliche Konfigurationen;
   </li>
-  <li>das Maven-Projekt zur Sicherung des Zugriffs auf den Webdienst baut auf dem vorherigen Projekt auf und verfügt ebenfalls über 24 mögliche Konfigurationen;
+  <li>das Maven-Projekt zur Absicherung des Zugriffs auf den Webdienst baut auf dem vorherigen Projekt auf und verfügt ebenfalls über 24 mögliche Konfigurationen;
   </li>
-  <li><span style="color: #000000">schließlich baut das Maven-Projekt, das domänenübergreifende Anfragen an den sicheren Webdienst ermöglicht, auf dem vorherigen Projekt auf und verfügt ebenfalls über 24 mögliche Konfigurationen;</span>
+  <li><span style="color: #000000">schließlich stützt sich das Maven-Projekt, das domänenübergreifende Anfragen an den gesicherten Webdienst ermöglicht, auf das vorherige Projekt und verfügt ebenfalls über 24 mögliche Konfigurationen;</span>
   </li>
 </ul>
 
-<p>Obwohl dieses Dokument nicht alle Möglichkeiten der Java-Sprache oder alle ihre Anwendungsbereiche abdeckt, kann es als Lernressource für die Sprache genutzt werden. Leser, die den Inhalt dieses Kurses beherrschen, haben sowohl in der Anwendung der Sprache als auch im Spring-Framework ein „fortgeschrittenes Java“-Niveau erreicht. Sie können ihre Java-Ausbildung dann mit den folgenden Büchern fortsetzen:</p>
+<p>Obwohl dieses Dokument nicht alle Möglichkeiten der Programmiersprache Java und auch nicht alle ihre Anwendungsbereiche abdeckt, kann es als Lernmaterial für die Sprache verwendet werden. Leser, die den Inhalt dieses Kurses verinnerlicht haben, erreichen sowohl im Umgang mit der Sprache als auch mit dem Spring-Framework das Niveau „Java für Fortgeschrittene“. Sie können ihre Java-Ausbildung dann mit den folgenden Werken fortsetzen:</p>
 <ul>
-  <li>[Spring MVC and Thymeleaf by Example] [<a href="http://tahe.developpez.com/java/springmvc-thymeleaf"><u><span style="color: #0563c1">http://tahe.developpez.com/java/springmvc-thymeleaf</span></u></a>], das die Erkundung des Spring-Ökosystems fortsetzt, indem es dessen Zweig „MVC-Webprogrammierung“ vorstellt. Es verwendet eine komplexere Datenbank als die hier behandelte;
+  <li>[Spring MVC et Thymeleaf par l&#x27;exemple] [http://tahe.developpez.com/java/springmvc-thymeleaf], das das Erlernen des Spring-Ökosystems fortsetzt und dessen Zweig „Webprogrammierung“ (MVC) vorstellt. Es verwendet eine komplexere Datenbank als die hier behandelte;
   </li>
-  <li>[AngularJS / Spring MVC Tutorial] [<a href="http://tahe.developpez.com/angularjs-spring4"><u><span style="color: #0563c1">http://tahe.developpez.com/angularjs-spring4</span></u></a>], das eine Client/Server-Webarchitektur vorstellt, bei der der Client mit dem [AngularJS]-Framework und der Server mit [Spring MVC] implementiert wird;
+  <li>[Tutoriel AngularJS / Spring MVC] [http://tahe.developpez.com/angularjs-spring4], das eine Client-Server-Webarchitektur aufweist, bei der der Client mit dem Framework [AngularJS] und der Server mit [Spring MVC] implementiert ist;
   </li>
-  <li>[Einführung in Java EE] [<a href="http://tahe.developpez.com/java/javaee"><u><span style="color: #0563c1">http://tahe.developpez.com/java/javaee</span></u></a>], das sich vom Spring-Ökosystem wegbewegt und sich einer Webarchitektur zuwendet, die auf JSF (Java Server Faces) und EJB (Enterprise JavaBeans) basiert;
+  <li>[Introduction à Java EE] [http://tahe.developpez.com/java/javaee], das die Spring-Umgebung zugunsten einer Webarchitektur auf Basis von JSF (Java Server Faces) und EJB (Enterprise Java Bean) verlässt;
   </li>
-  <li><span style="color: #000000">[Einführung in die Android-Tablet-Programmierung] [</span><a href="http://tahe.developpez.com/android/exemples-intellij-aa"><u><span style="color: #0563c1">http://tahe.developpez.com/android/exemples-intellij-aa</span></u></a><span style="color: #000000">], das eine Client/Server-Architektur beschreibt, bei der der Client ein in Java programmiertes Android-Tablet und der Server ein mit Spring MVC implementierter Webdienst ist;</span>
+  <li><span style="color: #000000">[Introduction à la programmation des tablettes Android] [http://tahe.developpez.com/android/exemples-intellij-aa], das eine Client-Server-Architektur beschreibt, bei der der Client ein in Java programmiertes Android-Tablet und der Server ein mit Spring implementierter Webdienst ist (MVC);</span>
   </li>
 </ul>
 

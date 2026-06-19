@@ -12,7 +12,7 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/de-spring-database-juin-2015/generieren-von-datenbanken-aus-jpa-entitaten.html">
+        <link rel="canonical" href="https://stahe.github.io/de-spring-database-juin-2015/erstellung-der-datenbanken-aus-den-entitaten-jpa.html">
       
       
         <link rel="prev" href="spring-data-jpa-openjpa.html">
@@ -29,7 +29,7 @@
     
     
       
-        <title>9. Generieren von Datenbanken aus JPA-Entitäten - Arbeiten mit einer relationalen Datenbank unter Verwendung des Spring-Ökosystems</title>
+        <title>9. Erstellung der Datenbanken aus den Entitäten JPA - Arbeiten mit einer relationalen Datenbank unter Verwendung des Spring-Ökosystems</title>
       
     
     
@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#9-generieren-von-datenbanken-aus-jpa-entitaten" class="md-skip">
+        <a href="#9-erstellung-der-datenbanken-aus-den-entitaten-jpa" class="md-skip">
           Skip to content
         </a>
       
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              9. Generieren von Datenbanken aus JPA-Entitäten
+              9. Erstellung der Datenbanken aus den Entitäten JPA
             
           </span>
         </div>
@@ -305,14 +305,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einleitung.html" class="md-nav__link">
+      <a href="einfuhrung.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Einleitung
+    1. Einführung
   
 
     
@@ -339,7 +339,7 @@
   <span class="md-ellipsis">
     
   
-    2. Einführung in das Spring Framework
+    2. Einführung in das Spring-Framework
   
 
     
@@ -359,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einfuhrung-in-die-jdbc-api.html" class="md-nav__link">
+      <a href="einfuhrung-in-api-jdbc.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. Einführung in die JDBC-API
+    3. Einführung in API JDBC
   
 
     
@@ -537,7 +537,7 @@
   <span class="md-ellipsis">
     
   
-    9. Generieren von Datenbanken aus JPA-Entitäten
+    9. Erstellung der Datenbanken aus den Entitäten JPA
   
 
     
@@ -548,14 +548,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="generieren-von-datenbanken-aus-jpa-entitaten.html" class="md-nav__link md-nav__link--active">
+      <a href="erstellung-der-datenbanken-aus-den-entitaten-jpa.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. Generieren von Datenbanken aus JPA-Entitäten
+    9. Erstellung der Datenbanken aus den Entitäten JPA
   
 
     
@@ -581,10 +581,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#91-einrichten-der-arbeitsumgebung" class="md-nav__link">
+  <a href="#91-einrichtung-der-arbeitsumgebung" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.1. Einrichten der Arbeitsumgebung
+        9.1. Einrichtung der Arbeitsumgebung
       
     </span>
   </a>
@@ -592,15 +592,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#92-erstellen-der-datenbank-dbproduitscategories" class="md-nav__link">
+  <a href="#92-generierung-der-datenbank-dbproduitscategories" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.2. Erstellen der Datenbank [dbproduitscategories]
+        9.2. Generierung der Datenbank [dbproduitscategories]
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="9.2. Erstellen der Datenbank [dbproduitscategories]">
+    <nav class="md-nav" aria-label="9.2. Generierung der Datenbank [dbproduitscategories]">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -648,10 +648,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#925-tabellen-mit-eclipselink-generieren" class="md-nav__link">
+  <a href="#925-generierung-der-tabellen-mit-eclipselink" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.2.5. Tabellen mit EclipseLink generieren
+        9.2.5. Generierung der Tabellen mit EclipseLink
       
     </span>
   </a>
@@ -659,10 +659,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#926-tabellen-mit-hibernate-generieren" class="md-nav__link">
+  <a href="#926-generierung-der-tabellen-mit-hibernate" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.2.6. Tabellen mit Hibernate generieren
+        9.2.6. Generierung der Tabellen mit Hibernate
       
     </span>
   </a>
@@ -670,10 +670,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#927-tabellen-mit-openjpa-generieren" class="md-nav__link">
+  <a href="#927-generierung-der-tabellen-mit-openjpa" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.2.7. Tabellen mit OpenJpa generieren
+        9.2.7. Generierung der Tabellen mit OpenJpa
       
     </span>
   </a>
@@ -686,15 +686,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#93-erstellen-der-datenbank-dbproduits" class="md-nav__link">
+  <a href="#93-generierung-der-datenbank-dbproduits" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.3. Erstellen der Datenbank [dbproduits]
+        9.3. Generierung der Datenbank [dbproduits]
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="9.3. Erstellen der Datenbank [dbproduits]">
+    <nav class="md-nav" aria-label="9.3. Generierung der Datenbank [dbproduits]">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -720,10 +720,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#933-die-jpa-entitat-product" class="md-nav__link">
+  <a href="#933-die-entitat-jpa-produit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.3.3. Die JPA-Entität [Product]
+        9.3.3. Die Entität JPA [Produit]
       
     </span>
   </a>
@@ -742,10 +742,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#935-eclipselink-generierung" class="md-nav__link">
+  <a href="#935-generierung-von-eclipselink" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.3.5. EclipseLink-Generierung
+        9.3.5. Generierung von EclipseLink
       
     </span>
   </a>
@@ -764,10 +764,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#937-openjpa-generierung" class="md-nav__link">
+  <a href="#937-generierung-von-openjpa" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.3.7. OpenJpa-Generierung
+        9.3.7. Generierung von OpenJpa
       
     </span>
   </a>
@@ -983,14 +983,14 @@
   
   
     <li class="md-nav__item">
-      <a href="eine-datenbank-im-web-verfugbar-machen.html" class="md-nav__link">
+      <a href="eine-datenbank-im-web-bereitstellen.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    17. Eine Datenbank im Web verfügbar machen
+    17. Eine Datenbank im Web bereitstellen
   
 
     
@@ -1010,14 +1010,14 @@
   
   
     <li class="md-nav__item">
-      <a href="ein-fur-den-json-webdienst-programmierter-client.html" class="md-nav__link">
+      <a href="ein-fur-den-webdienst--json-programmierter-client.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    18. Ein für den /JSON-Webdienst programmierter Client
+    18. Ein für den Webdienst / jSON programmierter Client
   
 
     
@@ -1091,14 +1091,14 @@
   
   
     <li class="md-nav__item">
-      <a href="domanenubergreifende-zugriffsverwaltung.html" class="md-nav__link">
+      <a href="verwaltung-domanenubergreifender-zugriffe.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    21. Domänenübergreifende Zugriffsverwaltung
+    21. Verwaltung domänenübergreifender Zugriffe
   
 
     
@@ -1182,66 +1182,66 @@
 
 
 
-<p><a id="refheading11084335254046"></a></p>
-<h1 id="9-generieren-von-datenbanken-aus-jpa-entitaten">9. <span style="color: #365f91">Generieren von Datenbanken aus JPA-Entitäten</span></h1>
-<p>Es ist möglich, Datenbanktabellen aus JPA-Entitäten zu erstellen. Dies werden wir nun demonstrieren. Der Zweck besteht darin, zu überprüfen, ob die aus den JPA-Entitäten generierte Datenbank tatsächlich die gewünschte ist.</p>
-<p><a id="refheading11084535254046"></a></p>
-<h2 id="91-einrichten-der-arbeitsumgebung">9.1. <span style="color: #4f81bd">Einrichten der Arbeitsumgebung</span></h2>
-<p>Wir werden zunächst mit einer EclipseLink-JPA-Implementierung [1] arbeiten.</p>
+<p><span id="refheading11084335254046" name="refheading11084335254046" class="odt-bookmark-anchor"></span></p>
+<h1 id="9-erstellung-der-datenbanken-aus-den-entitaten-jpa">9. <span style="color: #365f91">Erstellung der Datenbanken aus den Entitäten JPA</span></h1>
+<p>Es ist möglich, die Tabellen einer Datenbank anhand der Entitäten JPA zu erstellen. Dies zeigen wir nun. Der Vorteil besteht darin, zu überprüfen, ob die anhand der Entitäten JPA generierte Datenbank tatsächlich die gewünschte ist.</p>
+<p><span id="refheading11084535254046" name="refheading11084535254046" class="odt-bookmark-anchor"></span></p>
+<h2 id="91-einrichtung-der-arbeitsumgebung">9.1. <span style="color: #4f81bd">Einrichtung der Arbeitsumgebung</span></h2>
+<p>Wir arbeiten zunächst mit einer Implementierung der Entitäten JPA, EclipseLink und [1].</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000015F00000112D303570A.png" width="176" height="137" style="display:inline-block; margin:4px;width:4.644cm;height:3.625cm;" class="odt-zoomable" data-zoom-src="images/100000000000015F00000112D303570A.png" /></td></tr></table>
 
-<p>Anschließend löschen wir die Tabellen aus der MySQL-Datenbank [dbproduitscategories] mithilfe des Clients [MyManager] (siehe <a href="#refheading80991783410321"><u><span style="color: #0563c1">Abschnitt 23.5</span></u></a>). Wir beginnen mit dem Löschen der Tabellen, die die Fremdschlüssel enthalten [1-3]:</p>
+<p>Anschließend löschen wir die Tabellen der Datenbank MySQL und [dbproduitscategories] mit dem Client [MyManager] (siehe Abschnitt<a href="anhange.html#refheading80991783410321"><u><span style="color: #0563c1"> 23.5</span></u></a>). Zunächst löschen wir die Tabellen, die die Fremdschlüssel [1-3] enthalten:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000469000001EBD4B00BA9.png" width="565" height="246" style="display:inline-block; margin:4px;width:14.937cm;height:6.496cm;" class="odt-zoomable" data-zoom-src="images/1000000000000469000001EBD4B00BA9.png" /></td></tr></table>
 
-<p>Anschließend wiederholen wir den Vorgang mit den drei verbleibenden Tabellen [4-6]:</p>
+<p>Anschließend beginnen wir erneut mit den drei verbleibenden Tabellen [4-6]:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000461000001C4A8F553F7.png" width="561" height="226" style="display:inline-block; margin:4px;width:14.831cm;height:5.98cm;" class="odt-zoomable" data-zoom-src="images/1000000000000461000001C4A8F553F7.png" /></td></tr></table>
 
-<p>Das Gleiche tun wir mit der Tabelle [dbproduits], die von den Projekten [spring-jdbc-01 bis 03] verwendet wird:</p>
+<p>Das Gleiche tun wir mit der Tabelle [dbproduits], die von den Projekten [spring-jdbc-01 à 03] verwendet wird:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001440000010202EC33D1.png" width="227" height="181" style="display:inline-block; margin:4px;width:6.001cm;height:4.778cm;" class="odt-zoomable" data-zoom-src="images/10000000000001440000010202EC33D1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000D3000000BFE379EC44.png" width="148" height="134" style="display:inline-block; margin:4px;width:3.911cm;height:3.54cm;" class="odt-zoomable" data-zoom-src="images/10000000000000D3000000BFE379EC44.png" /></td></tr></table>
 
-<p>Außerdem müssen Sie die beiden Projekte zur Datenbankgenerierung importieren:</p>
+<p>Außerdem müssen die beiden Generierungsprojekte der beiden Datenbanken importiert werden:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004FE000001BAD94CF18F.png" width="639" height="221" style="display:inline-block; margin:4px;width:16.907cm;height:5.847cm;" class="odt-zoomable" data-zoom-src="images/10000000000004FE000001BAD94CF18F.png" /></td></tr></table>
 
 <ul>
-  <li>Importieren Sie in [1] das Projekt [generic-create-dbproduits], das sich in [&lt;examples&gt;/spring-database-generic/spring-jpa] [2] befindet;
+  <li>In [1] wird das Projekt [generic-create-dbproduits] importiert, das sich in [&lt;exemples&gt;/spring-database-generic/spring-jpa] und [2] befindet;
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000051A000001B77D33E829.png" width="653" height="220" style="display:inline-block; margin:4px;width:17.277cm;height:5.808cm;" class="odt-zoomable" data-zoom-src="images/100000000000051A000001B77D33E829.png" /></td></tr></table>
 
 <ul>
-  <li>Importieren Sie in [4] das Projekt [generic-create-dbproduitscategories], das sich in [&lt;examples&gt;/spring-database-generic/spring-jpa] [5] befindet;
+  <li>in [4] wird das Projekt [generic-create-dbproduitscategories] importiert, das sich in [&lt;exemples&gt;/spring-database-generic/spring-jpa] und [5] befindet;
   </li>
 </ul>
 
-<p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und generieren Sie alle Maven-Projekte neu;</p>
-<p><a id="refheading118623630560624"></a></p>
-<h2 id="92-erstellen-der-datenbank-dbproduitscategories">9.2. <span style="color: #4f81bd">Erstellen der Datenbank [dbproduitscategories]</span></h2>
+<p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und regenerieren Sie alle Maven-Projekte;</p>
+<p><span id="refheading118623630560624" name="refheading118623630560624" class="odt-bookmark-anchor"></span></p>
+<h2 id="92-generierung-der-datenbank-dbproduitscategories">9.2. <span style="color: #4f81bd">Generierung der Datenbank [dbproduitscategories]</span></h2>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000FF000000E76690E213.png" width="178" height="162" style="display:inline-block; margin:4px;width:4.72cm;height:4.276cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FF000000E76690E213.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="refheading118625630560624"></a></p>
+<p><span id="refheading118625630560624" name="refheading118625630560624" class="odt-bookmark-anchor"></span></p>
 <h3 id="921-maven-konfiguration">9.2.1. <span style="color: #4f81bd">Maven-Konfiguration</span></h3>
-<p>Die [pom.xml]-Datei des Projekts sieht wie folgt aus:</p>
+<p>Die Datei [pom.xml] des Projekts lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span><span style="color:#000000"> </span><span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;UTF-8&quot;</span><span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project</span><span style="color:#000000"> </span><span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">modelVersion</span><span style="color:#008080">&gt;</span><span style="color:#000000">4.0.0</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">modelVersion</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">dvp.spring.database</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">generic-create-dbproduitscategories</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.0.1-SNAPSHOT</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">generic-create-dbproduitscategories</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">description</span><span style="color:#008080">&gt;</span><span style="color:#000000">création de la bases de données [dbproduitscategories] à l&#x27;aide des annotations JPA</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">description</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">org.springframework.boot</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-boot-starter-parent</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">1.2.3.RELEASE</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- spring-jpa-generic --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
@@ -1249,20 +1249,20 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-jpa-generic</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.0.1-SNAPSHOT</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- Weaver Spring --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- Spring Weaver --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">org.springframework</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-instrument</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">scope</span><span style="color:#008080">&gt;</span><span style="color:#000000">runtime</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">scope</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">start-class</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring.data.console.Main</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">start-class</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">java.version</span><span style="color:#008080">&gt;</span><span style="color:#000000">1.7</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">java.version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">build</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">plugins</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">plugin</span><span style="color:#008080">&gt;</span></span></span>
@@ -1272,55 +1272,55 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">plugin</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">plugins</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">build</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zeilen 22–26: die Abhängigkeit vom Projekt [spring-jpa-generic], das in <a href="#refheading107481995711268"><u><span style="color: #0563c1">Abschnitt 6.4</span></u></a> behandelt wurde;
+  <li>Zeilen 22–26: die Abhängigkeit vom Projekt [spring-jpa-generic], das in Abschnitt<a href="spring-data-jpa-hibernate.html#refheading107481995711268"><u><span style="color: #0563c1"> 6.4</span></u></a> behandelt wurde;
   </li>
-  <li>Zeilen 28–32: die Abhängigkeit von einem Weaver, der zur Anreicherung der JPA-Entitäten der EclipseLink- und OpenJpa-Implementierungen verwendet wird. Diese Abhängigkeit ist in der [pom.xml]-Datei nicht erforderlich, aber die zugehörige JAR-Datei wird als Java-Agent verwendet. Durch die Aufnahme der Abhängigkeit in die [pom.xml]-Datei wird sichergestellt, dass die JAR-Datei verfügbar ist;
+  <li>Zeilen 28–32: die Abhängigkeit von einem Weaver, der zur Anreicherung der Entitäten JPA der Implementierungen EclipseLink und OpenJpa verwendet wird. Diese Abhängigkeit ist in der Datei [pom.xml] nicht erforderlich, aber deren JAR-Datei wird als Java-Agent verwendet. Durch das Einfügen der Abhängigkeit in die Datei [pom.xml] wird sichergestellt, dass die JAR-Datei tatsächlich verfügbar ist;
   </li>
 </ul>
 
 <p>Letztendlich lauten die Abhängigkeiten wie folgt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000011E00000089360AFC79.png" width="200" height="96" style="display:inline-block; margin:4px;width:5.3cm;height:2.538cm;" class="odt-zoomable" data-zoom-src="images/100000000000011E00000089360AFC79.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="refheading118627630560624"></a></p>
+<p><span id="refheading118627630560624" name="refheading118627630560624" class="odt-bookmark-anchor"></span></p>
 <h3 id="922-spring-konfiguration">9.2.2. <span style="color: #4f81bd">Spring-Konfiguration</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F0000000715B11A75D.png" width="168" height="79" style="display:inline-block; margin:4px;width:4.45cm;height:2.096cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F0000000715B11A75D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Die Klasse [AppConfig] konfiguriert das Spring-Projekt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> console;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> generic.jpa.config.ConfigJpa;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Configuration;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Import;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.data.jpa.repository.config.EnableJpaRepositories;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@Configuration</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@Import</span><span style="color:#000000">({ ConfigJpa.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@EnableJpaRepositories</span><span style="color:#000000">(basePackages = { </span><span style="color:#2a00ff">&quot;console&quot;</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> AppConfig {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zeile 10: Die Klasse ruft die Beans aus der Klasse [ConfigJpa] ab. Beachten Sie, dass diese Klasse mit den JPA-Entitäten in der Datenbank [dbproduitscategories] arbeitet (siehe <a href="#refheading1052902082896917"><u><span style="color: #0563c1">Abschnitt 6.3</span></u></a>);
+  <li>Zeile 10: Die Klasse ruft die Beans der Klasse [ConfigJpa] ab. Zur Erinnerung: Diese Klasse arbeitet mit den Entitäten JPA aus der Datenbank [dbproduitscategories] (siehe Abschnitt<a href="spring-data-jpa-hibernate.html#refheading1052902082896917"><u><span style="color: #0563c1"> 6.3</span></u></a>);
   </li>
-  <li>Zeile 11: Wir legen fest, dass das [console]-Paket durchsucht werden muss, um [CrudRepository]-Instanzen zu finden;
+  <li>Zeile 11: Es wird festgelegt, dass das Paket [console] nach Instanzen von [CrudRepository] durchsucht werden soll;
   </li>
 </ul>
 
-<p>In der Klasse [ConfigJpa] finden wir die folgende Bean (variiert je nach verwendeter JPA-Implementierung):</p>
+<p>In der Klasse [ConfigJpa] findet sich die folgende Bean (variiert je nach verwendeter Implementierung JPA):</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// the provider JPA</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// der Provider JPA</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Bean</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> JpaVendorAdapter jpaVendorAdapter() {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Note: JPA entities and Eclipselink configuration are in the META-INF/persistence.xml file</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Hinweis: Die Entitäten JPA und die Eclipselink-Konfiguration befinden sich in der Datei META-INF/persistence.xml</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        EclipseLinkJpaVendorAdapter </span><span style="color:#6a3e3e">eclipseLinkJpaVendorAdapter</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> EclipseLinkJpaVendorAdapter();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">eclipseLinkJpaVendorAdapter</span><span style="color:#000000">.setShowSql(</span><span style="font-weight:bold;color:#7f0055">false</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">eclipseLinkJpaVendorAdapter</span><span style="color:#000000">.setDatabase(Database.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">MYSQL</span><span style="color:#000000">);</span></span></span>
@@ -1329,72 +1329,73 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Zeile 8 ist hier entscheidend. Sie ist in allen verwendeten JPA-Implementierungen vorhanden. Sie legt fest, dass die mit den JPA-Entitäten verbundenen Tabellen erstellt werden müssen, falls sie nicht existieren. Wir werden diese Eigenschaft nutzen, um die Tabellen zu generieren.</p>
-<p><a id="refheading118629630560624"></a></p>
+<p>Wichtig ist hier Zeile 8. Sie ist in allen verwendeten Implementierungen von JPA vorhanden. Sie besagt, dass die den Entitäten JPA zugeordneten Tabellen, falls sie nicht existieren, angelegt werden müssen. Wir werden uns auf diese Eigenschaft stützen, um die Tabellen zu generieren.</p>
+<p><span id="refheading118629630560624" name="refheading118629630560624" class="odt-bookmark-anchor"></span></p>
 <h3 id="923-die-repositorys">9.2.3. <span style="color: #4f81bd">Die Repositorys</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F000000071EE86F6A7.png" width="168" height="79" style="display:inline-block; margin:4px;width:4.45cm;height:2.096cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F000000071EE86F6A7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Die Schnittstelle [ProductsRepository] sieht wie folgt aus:</p>
+<p>Die Schnittstelle [ProduitsRepository] sieht wie folgt aus:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> console;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> generic.jpa.entities.dbproduitscategories.Produit;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.data.repository.CrudRepository;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">interface</span><span style="color:#000000"> ProduitsRepository </span><span style="font-weight:bold;color:#7f0055">extends</span><span style="color:#000000"> CrudRepository&lt;Produit, Long&gt; {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Die Instanziierung dieser Schnittstelle löst die Instanziierung der JPA-Schicht aus. Tatsächlich verweist die Schnittstelle in Zeile 7 auf die JPA-Entität [Product], was die Instanziierung der JPA-Schicht erzwingt. Wir hätten jede beliebige Schnittstelle [CrudRepository] verwenden können, die auf eine der JPA-Entitäten verweist. Wir sehen, dass zwar das [Repository] nur auf die JPA-Entität [Product] verweist, jedoch alle Tabellen für alle JPA-Entitäten generiert werden.</p>
-<p><a id="refheading118631630560624"></a></p>
-<h3 id="924-die-ausfuhrbare-klasse">9.2.4. <span style="color: #4f81bd"><span style="color: #4f81bd">Die ausführbare Klasse</span></span></h3>
+<p>Durch ihre Instanziierung wird die Instanziierung der Schicht JPA ausgelöst. Tatsächlich verweist die Schnittstelle in Zeile 7 auf die Entität JPA [Produit], was die Instanziierung der Schicht JPA erzwingt. Man hätte jede beliebige Schnittstelle [CrudRepository] verwenden können, die auf eine der Entitäten JPA verweist. Tatsächlich lässt sich feststellen, dass, obwohl [repository] nur auf die Entität JPA [Produit] verweist, tatsächlich alle Tabellen aller Entitäten JPA generiert werden.</p>
+<p><span id="refheading118631630560624" name="refheading118631630560624" class="odt-bookmark-anchor"></span></p>
+<h3 id="924-die-ausfuhrbare-klasse">9.2.4. <span style="color: #4f81bd">Die ausführbare Klasse</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F000000071E7075522.png" width="168" height="79" style="display:inline-block; margin:4px;width:4.45cm;height:2.096cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F000000071E7075522.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Die Klasse [CreateDatabase] sieht wie folgt aus:</p>
+<p>Die Klasse [CreateDatabase] lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> console;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.AnnotationConfigApplicationContext;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> CreateDataBase {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">static</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> main(String[] </span><span style="color:#6a3e3e">args</span><span style="color:#000000">) {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// simply instantiate the Spring context to create the database tables [dbproduitscategories]</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// you also need at least one Spring Data Repository, otherwise nothing happens</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Es reicht aus, den Spring-Kontext zu instanziieren, um die Tabellen der Datenbank [dbproduitscategories] zu erstellen</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Außerdem ist mindestens ein Spring Data Repository erforderlich, sonst passiert nichts</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Travail en cours...&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> AnnotationConfigApplicationContext(AppConfig.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">).close();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Travail terminé...&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">}</span></span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zeile 11: Wir instanziieren den Spring-Kontext und schließen ihn sofort wieder. In diesem Kontext befindet sich die Bean [ProductsRepository], die auf die JPA-Entität [Product] verweist. Dies reicht aus, um die JPA-Schicht zu instanziieren und somit die Tabellen in der Datenbank [productcategories] zu generieren. 
+  <li>Zeile 11: Der Spring-Kontext wird instanziiert, um ihn sofort wieder zu schließen. In diesem Kontext befindet sich die Bean [ProduitsRepository], die auf die Entitäten JPA und [Produit] verweist. Dies reicht aus, um die Schicht JPA zu instanziieren und somit die Tabellen der Datenbank [dbproduitscategories] zu generieren. 
   </li>
 </ul>
-<p><a id="refheading11084735254046"></a></p>
-<h3 id="925-tabellen-mit-eclipselink-generieren">9.2.5. <span style="color: #4f81bd">Tabellen mit EclipseLink generieren</span></h3>
+
+<p><span id="refheading11084735254046" name="refheading11084735254046" class="odt-bookmark-anchor"></span></p>
+<h3 id="925-generierung-der-tabellen-mit-eclipselink">9.2.5. <span style="color: #4f81bd">Generierung der Tabellen mit EclipseLink</span></h3>
 <p>Wir befinden uns in der folgenden Konfiguration:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000103000000EB7F068553.png" width="181" height="165" style="display:inline-block; margin:4px;width:4.8cm;height:4.355cm;" class="odt-zoomable" data-zoom-src="images/1000000000000103000000EB7F068553.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <ul>
-  <li>Die [JDBC]-Schicht ist für die MySQL-Datenbank [dbproduitscategories] konfiguriert;
+  <li>Die Schicht [JDBC] ist für die Datenbank [dbproduitscategories] von MySQL konfiguriert;
   </li>
-  <li>die [JPA]-Schicht ist mit EclipseLink implementiert;
+  <li>die Ebene [JPA] ist mit EclipseLink implementiert;
   </li>
   <li>die Datenbank [dbproduitscategories] enthält keine Tabellen;
   </li>
 </ul>
 
 <p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und generieren Sie alle Maven-Projekte neu;</p>
-<p>Wir verwenden die folgende Ausführungskonfiguration:</p>
+<p>Es wird die folgende Ausführungskonfiguration verwendet:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000529000001CF508B05D0.png" width="661" height="232" style="display:inline-block; margin:4px;width:17.477cm;height:6.126cm;" class="odt-zoomable" data-zoom-src="images/1000000000000529000001CF508B05D0.png" /></td></tr></table>
 
 <ul>
-  <li>In [1-2] erfordert diese Ausführungskonfiguration einen Java-Agenten, damit der Test erfolgreich ist. Je nach Situation benötigt EclipseLink diesen Agenten nicht immer, aber hier schlägt die Ausführung fehl, wenn er nicht vorhanden ist. Dieser Agent ist kein EclipseLink-Agent, sondern ein Spring-Agent. Er wird durch die Abhängigkeit bereitgestellt:
+  <li>In [1-2] benötigt diese Ausführungskonfiguration einen Java-Agenten, damit der Test erfolgreich ist. Je nach Fall benötigt EclipseLink diesen Agenten nicht immer, aber hier schlägt die Ausführung fehl, wenn er nicht vorhanden ist. Bei diesem Agenten handelt es sich nicht um einen EclipseLink-Agenten, sondern um einen Spring-Agenten. Er wird durch die Abhängigkeit bereitgestellt:
   </li>
 </ul>
 
@@ -1406,24 +1407,24 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>in der [pom.xml]-Datei des Projekts enthalten. Der Agent befindet sich unter [&lt;m2-repo&gt;/org/springframework/spring-instrument/4.1.6.RELEASE/spring-instrument-4.1.6.RELEASE.jar], wobei &lt;m2-repo&gt; das lokale Maven-Repository ist;</p>
+<p>die in der Datei [pom.xml] des Projekts vermerkt ist. Der Agent befindet sich in [&lt;m2-repo&gt;/org/springframework/spring-instrument/4.1.6.RELEASE/spring-instrument-4.1.6.RELEASE.jar], wobei &lt;m2-repo&gt; das lokale Maven-Repository ist;</p>
 <p>Die Ausführung liefert das folgende Ergebnis:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000042F0000022944B32767.png" width="536" height="277" style="display:inline-block; margin:4px;width:14.169cm;height:7.317cm;" class="odt-zoomable" data-zoom-src="images/100000000000042F0000022944B32767.png" /></td></tr></table>
 
-<p>In [3] sehen wir, dass die Tabellen generiert wurden. Sehen wir uns nun die DDL (Domain Definition Language) der Datenbank an:</p>
+<p>In [3] ist zu sehen, dass die Tabellen generiert wurden. Überprüfen wir nun die DDL (Domain Definition Language) der Datenbank:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000A200000124CAC1D99D.png" width="113" height="204" style="display:inline-block; margin:4px;width:3cm;height:5.406cm;" class="odt-zoomable" data-zoom-src="images/10000000000000A200000124CAC1D99D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002200000018EBF11C9B1.png" width="381" height="278" style="display:inline-block; margin:4px;width:10.07cm;height:7.368cm;" class="odt-zoomable" data-zoom-src="images/10000000000002200000018EBF11C9B1.png" /></td></tr></table>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000052900000232BC1CB006.png" width="661" height="281" style="display:inline-block; margin:4px;width:17.477cm;height:7.435cm;" class="odt-zoomable" data-zoom-src="images/100000000000052900000232BC1CB006.png" /></td></tr></table>
 
-<p>Das SQL-Skript zum Erstellen der Tabellen kann auch in einer Datei gespeichert werden [1].</p>
+<p>Das Skript SQL zur Tabellengenerierung kann ebenfalls in einer Datei mit dem Namen [1] gespeichert werden.</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001540000012B9E1C235D.png" width="238" height="209" style="display:inline-block; margin:4px;width:6.301cm;height:5.54cm;" class="odt-zoomable" data-zoom-src="images/10000000000001540000012B9E1C235D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000018B000000B569F310A3.png" width="276" height="126" style="display:inline-block; margin:4px;width:7.292cm;height:3.341cm;" class="odt-zoomable" data-zoom-src="images/100000000000018B000000B569F310A3.png" /><img src="images/10000000000001C0000000BFC64BECE4.png" width="314" height="134" style="display:inline-block; margin:4px;width:8.301cm;height:3.538cm;" class="odt-zoomable" data-zoom-src="images/10000000000001C0000000BFC64BECE4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Das generierte SQL-Skript lautet wie folgt:</p>
+<p>Das generierte Skript SQL lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content">SET FOREIGN_KEY_CHECKS=0;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">USE `dbproduitscategories`;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `categories` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `NOM` VARCHAR(30) COLLATE utf8_general_ci NOT NULL,</span></span>
@@ -1433,7 +1434,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `produits` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `DESCRIPTION` VARCHAR(100) COLLATE utf8_general_ci DEFAULT NULL,</span></span>
@@ -1449,19 +1450,19 @@
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `roles` (</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">CREATE TABLE `roles` (</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `users` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> ...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `users_roles` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
@@ -1469,63 +1470,63 @@
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
 </code></pre></div>
 
-<p>Sehen wir uns zum Beispiel das SQL-Skript an, das die Tabelle [PRODUCTS] generiert (Zeilen 15–29):</p>
+<p>Betrachten wir zum Beispiel das Skript SQL, das die Tabelle [PRODUITS] (Zeilen 15–29) generiert:</p>
 <ul>
-  <li>Zeile 16: [ID] ist der Primärschlüssel (Zeile 23) mit dem Attribut [<i>AUTO_INCREMENT</i>] (Zeile 5). Dies entspricht den Annotationen [<i>@Id, @GeneratedValue(strategy = GenerationType.IDENTITY), @Column(name = ConfigJdbc.TAB_JPA_ID)</i>] für das Feld [id] der JPA-Entität;
+  <li>Zeile 16: [ID] ist der Primärschlüssel (Zeile 23) mit dem Attribut [AUTO_INCREMENT] (Zeile 5). Dies entspricht den Anmerkungen [@Id, @GeneratedValue(strategy = GenerationType.IDENTITY), @Column(name = ConfigJdbc.TAB_JPA_ID)] zum Feld [id] der Entität JPA;
   </li>
-  <li>Zeile 17: Die Definition der Spalte [DESCRIPTION] entspricht der Annotation [<i>@Column(name = ConfigJdbc.TAB_PRODUITS_DESCRIPTION, length = 100)</i>] für das Feld [description] der JPA-Entität;
+  <li>Zeile 17: Die Definition der Spalte [DESCRIPTION] entspricht der Anmerkung [@Column(name = ConfigJdbc.TAB_PRODUITS_DESCRIPTION, length = 100)] des Feldes [description] der Entität JPA;
   </li>
-  <li>Zeile 18: Die Spalte [CATEGORIE_ID] ist ein Fremdschlüssel aus der Tabelle [PRODUITS] auf die Spalte [CATEGORIES.ID] (Zeile 26). Außerdem verfügt dieser Fremdschlüssel über das Attribut [ON DELETE CASCADE]. Dies entspricht den Annotationen [<i>@ManyToOne(fetch = FetchType.LAZY), @JoinColumn(name = ConfigJdbc.TAB_PRODUITS_CATEGORIE_ID)</i>] für das Feld [Produit.categorie] sowie der Annotation [<i>@OneToMany(fetch = FetchType.LAZY, mappedBy = &quot;categorie&quot;, cascade = { CascadeType.ALL }), @CascadeOnDelete</i>] des Feldes [Categorie.produits];
+  <li>Zeile 18: Die Spalte [CATEGORIE_ID] ist ein Fremdschlüssel der Tabelle [PRODUITS] auf die Spalte [CATEGORIES.ID] (Zeile 26). Außerdem hat dieser Fremdschlüssel das Attribut [ON DELETE CASCADE]. Dies entspricht den Anmerkungen [@ManyToOne(fetch = FetchType.LAZY), @JoinColumn(name = ConfigJdbc.TAB_PRODUITS_CATEGORIE_ID)] für das Feld [Produit.categorie] und der Anmerkung [@OneToMany(fetch = FetchType.LAZY, mappedBy = &quot;categorie&quot;, cascade = { CascadeType.ALL }), @CascadeOnDelete] für das Feld [Categorie.produits];
   </li>
-  <li>Zeile 19: Die Definition der Spalte [NAME] entspricht der Annotation [<i>@Column(name = ConfigJdbc.TAB_PRODUITS_NAME, unique = true, length = 30, nullable = false)</i>] des Feldes [Product.name];
+  <li>Zeile 19: Die Definition der Spalte [NOM] entspricht der Anmerkung [@Column(name = ConfigJdbc.TAB_PRODUITS_NOM, unique = true, length = 30, nullable = false)] des Feldes [Produit.nom];
   </li>
-  <li>Zeile 20: Die Definition der Spalte [PRICE] entspricht der Annotation [<i>@Column(name = ConfigJdbc.TAB_PRODUITS_PRIX, nullable = false)</i>] des Feldes [Product.price];
+  <li>Zeile 20: Die Definition der Spalte [PRIX] entspricht der Anmerkung [@Column(name = ConfigJdbc.TAB_PRODUITS_PRIX, nullable = false)] des Feldes [Produit.prix];
   </li>
   <li>Zeilen 24–25: Das Skript erstellt drei Indizes für jede der eindeutigen Spalten der Tabelle;
   </li>
 </ul>
 
-<p>Die generierten Tabellen haben keinen Standardwert für das Feld VERSIONING, während der Java-Code erwartet, dass einer vorhanden ist. Fehlt dieser Standardwert, schlagen bestimmte Tests fehl. Wir fügen dieses Attribut wie folgt hinzu:</p>
+<p>Die generierten Tabellen haben keinen Standardwert für das Feld VERSIONING, während der Java-Code einen solchen erwartet. Fehlt dieser Standardwert, werden bestimmte Tests nicht bestanden. Dieses Attribut wird wie folgt hinzugefügt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000024F000000ED81C08391.png" width="413" height="166" style="display:inline-block; margin:4px;width:10.94cm;height:4.387cm;" class="odt-zoomable" data-zoom-src="images/100000000000024F000000ED81C08391.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000019A0000019E02220332.png" width="287" height="290" style="display:inline-block; margin:4px;width:7.59cm;height:7.664cm;" class="odt-zoomable" data-zoom-src="images/100000000000019A0000019E02220332.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002ED000000CB946F3BF5.png" width="524" height="142" style="display:inline-block; margin:4px;width:13.869cm;height:3.759cm;" class="odt-zoomable" data-zoom-src="images/10000000000002ED000000CB946F3BF5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Dies geschieht für die fünf Tabellen, die die Spalte [VERSIONING] enthalten. Der Standardwert spielt keine Rolle; die Spalte muss lediglich vorhanden sein. Anschließend wird der Wert jedes Mal um 1 erhöht, wenn die Zeile, zu der er gehört, geändert wird.</p>
-<p>Sobald dies erledigt ist, überprüfen Sie, ob die folgenden Testkonfigurationen erfolgreich sind:</p>
+<p>Dies wird für alle fünf Tabellen durchgeführt, die die Spalte [VERSIONING] enthalten. Der Wert des Standardwerts spielt keine Rolle. Er muss lediglich vorhanden sein. Anschließend wird er bei jeder Änderung der Zeile, zu der er gehört, um 1 erhöht.</p>
+<p>Überprüfen Sie anschließend, ob die folgenden Ausführungskonfigurationen erfolgreich sind:</p>
 <ul>
-  <li>[spring-jdbc-generic-04.JUnitTestDao], der die JDBC-Implementierung testet;
+  <li>[spring-jdbc-generic-04.JUnitTestDao], das die Implementierung JDBC testet;
   </li>
-  <li>[spring-jpa-generic-JUnitTestDao-hibernate-eclipselink], der die Hibernate- oder EclipseLink-JPA-Implementierungen testet (in diesem Fall ist es EclipseLink)
+  <li>[spring-jpa-generic-JUnitTestDao-hibernate-eclipselink], das die Implementierungen JPA (Hibernate oder Eclipselink) testet (hier ist es EclipseLink)
   </li>
 </ul>
 
-<p>Beide Tests müssen erfolgreich sein.</p>
-<p><a id="refheading11084935254046"></a></p>
-<h3 id="926-tabellen-mit-hibernate-generieren">9.2.6. <span style="color: #4f81bd">Tabellen mit Hibernate generieren</span></h3>
-<p>Wir erstellen die Hibernate-Tabellen unter Verwendung der folgenden Eclipse-Umgebung:</p>
+<p>Beide Ausführungen müssen erfolgreich sein.</p>
+<p><span id="refheading11084935254046" name="refheading11084935254046" class="odt-bookmark-anchor"></span></p>
+<h3 id="926-generierung-der-tabellen-mit-hibernate">9.2.6. <span style="color: #4f81bd"><strong>Generierung der Tabellen mit Hibernate</strong></span></h3>
+<p>Wir erstellen die Hibernate-Tabellen mit der folgenden Eclipse-Umgebung:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000EF000000DFF2F77464.png" width="167" height="156" style="display:inline-block; margin:4px;width:4.431cm;height:4.135cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EF000000DFF2F77464.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Die Tabellengenerierung erfolgt über die Laufkonfiguration mit dem Namen [generic-create-dbproduitscategories-hibernate] ohne Java-Agent;</p>
+<p>Die Tabellen werden über die Ausführungskonfiguration mit dem Namen [generic-create-dbproduitscategories-hibernate] ohne Java-Agent generiert;</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000146000000FEE4B07F33.png" width="228" height="178" style="display:inline-block; margin:4px;width:6.04cm;height:4.706cm;" class="odt-zoomable" data-zoom-src="images/1000000000000146000000FEE4B07F33.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000161000001529B214BE9.png" width="247" height="237" style="display:inline-block; margin:4px;width:6.541cm;height:6.264cm;" class="odt-zoomable" data-zoom-src="images/1000000000000161000001529B214BE9.png" /></td></tr></table>
 
-<p>Das von Hibernate generierte SQL-Skript für die Datenbank lautet wie folgt:</p>
+<p>Das Skript SQL der von Hibernate generierten Datenbank lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content">SET FOREIGN_KEY_CHECKS=0;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">USE `dbproduitscategories`;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `categories` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `NOM` VARCHAR(30) COLLATE utf8_general_ci NOT NULL,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `VERSIONING` BIGINT(20) DEFAULT NULL,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  PRIMARY KEY (`ID`) USING BTREE,</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  UNIQUE KEY `UK_7ajcg7japnxw846ru01damg8s` (`NOM`) USING BTREE</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  UNIQUE KEY `UK_7ajcg7japnxw846ru01damg8s` (`NOM`) USING BTREE</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `produits` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `DESCRIPTION` VARCHAR(100) COLLATE utf8_general_ci DEFAULT NULL,</span></span>
@@ -1540,19 +1541,19 @@
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `roles` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `users` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `users_roles` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"> ...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
@@ -1560,44 +1561,44 @@
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
 </code></pre></div>
 
-<p>Die generierten Tabellen sind identisch, da Hibernate ebenfalls JPA-Annotationen verwendet hat. Für Hibernate konnte ich kein Äquivalent zur EclipseLink-Annotation [@OnCascadeDelete] finden, die das SQL-Attribut [ON DELETE CASCADE] für den Fremdschlüssel [PRODUCTS.CATEGORY_ID] (Zeile 25) generiert hat. Dieses Attribut muss daher manuell generiert werden, da es für den Test erforderlich ist:</p>
+<p>Die generierten Tabellen sind identisch, da auch Hibernate die Annotationen JPA verwendet hat. Für Hibernate habe ich kein Äquivalent zur Annotation EclipseLink [@OnCascadeDelete] gefunden, die dasAttribut SQL [ON DELTE CASCADE] für den Fremdschlüssel [PRODUITS.CATEGORIE_ID] (Zeile 25) erzeugt hat. Dieses Attribut muss daher manuell generiert werden, da es für die Tests erforderlich ist:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003D00000009408BA1816.png" width="655" height="99" style="display:inline-block; margin:4px;width:17.33cm;height:2.628cm;" class="odt-zoomable" data-zoom-src="images/10000000000003D00000009408BA1816.png" /></td></tr></table>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001C100000201C343D4C6.png" width="314" height="359" style="display:inline-block; margin:4px;width:8.31cm;height:9.495cm;" class="odt-zoomable" data-zoom-src="images/10000000000001C100000201C343D4C6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003CF0000005F4BDACF73.png" width="633" height="62" style="display:inline-block; margin:4px;width:16.76cm;height:1.633cm;" class="odt-zoomable" data-zoom-src="images/10000000000003CF0000005F4BDACF73.png" /></td></tr></table>
 
-<p>Das Gleiche muss für die beiden Fremdschlüssel in der Tabelle [USERS_ROLES] getan werden:</p>
+<p>Das Gleiche gilt für die beiden Fremdschlüssel der Tabelle [USERS_ROLES]:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003A30000005A7FFC2E9B.png" width="605" height="59" style="display:inline-block; margin:4px;width:16.011cm;height:1.549cm;" class="odt-zoomable" data-zoom-src="images/10000000000003A30000005A7FFC2E9B.png" /></td></tr></table>
 
-<p>Schließlich müssen, wie bei der EclipseLink-Implementierung, die [VERSIONING]-Spalten in den fünf Tabellen einen Standardwert haben:</p>
+<p>Schließlich müssen, wie bereits bei der Implementierung EclipseLink geschehen, die Spalten [VERSIONING] der fünf Tabellen einen Standardwert haben:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002ED000000CB946F3BF5.png" width="524" height="142" style="display:inline-block; margin:4px;width:13.869cm;height:3.759cm;" class="odt-zoomable" data-zoom-src="images/10000000000002ED000000CB946F3BF5.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Sobald dies erledigt ist, überprüfen Sie, ob die folgenden Testkonfigurationen erfolgreich sind:</p>
+<p>Nachdem dies erledigt ist, überprüfen Sie, ob die folgenden Ausführungskonfigurationen erfolgreich sind:</p>
 <ul>
-  <li>[spring-jdbc-generic-04.JUnitTestDao], der die JDBC-Implementierung testet;
+  <li>[spring-jdbc-generic-04.JUnitTestDao], das die Implementierung JDBC testet;
   </li>
-  <li>[spring-jpa-generic-JUnitTestDao-hibernate-eclipselink], der die Hibernate- oder Eclipselink-JPA-Implementierungen testet (in diesem Fall ist es Hibernate)
+  <li>[spring-jpa-generic-JUnitTestDao-hibernate-eclipselink], das die Implementierungen JPA (Hibernate oder Eclipselink – hier wird es Hibernate sein) testet
   </li>
 </ul>
 
-<p>Beide Tests müssen erfolgreich sein.</p>
-<p><a id="refheading118633630560624"></a></p>
-<h3 id="927-tabellen-mit-openjpa-generieren">9.2.7. <span style="color: #4f81bd">Tabellen mit OpenJpa generieren</span></h3>
-<p><a id="refheading110849352540461"></a>Wir wiederholen den vorherigen Vorgang mit einer OpenJpa-JPA-Implementierung:</p>
+<p>Beide Ausführungen müssen erfolgreich sein.</p>
+<p><span id="refheading118633630560624" name="refheading118633630560624" class="odt-bookmark-anchor"></span></p>
+<h3 id="927-generierung-der-tabellen-mit-openjpa">9.2.7. <span style="color: #4f81bd">Generierung der Tabellen mit OpenJpa</span></h3>
+<p><span id="refheading110849352540461" name="refheading110849352540461" class="odt-bookmark-anchor"></span>Wir wiederholen den vorherigen Vorgang mit einer JPA- oder OpenJpa-Implementierung:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000112000000F5081A34FF.png" width="192" height="171" style="display:inline-block; margin:4px;width:5.069cm;height:4.533cm;" class="odt-zoomable" data-zoom-src="images/1000000000000112000000F5081A34FF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und generieren Sie alle Maven-Projekte neu;</p>
 <p>Wir ändern die Klasse [ConfigJpa], die das Projekt [mysql-config-jpa-openjpa] konfiguriert, wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> generic.jpa.config;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> generic.jdbc.config.ConfigJdbc;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> java.util.Map;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.EntityManagerFactory;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.apache.tomcat.jdbc.pool.DataSource;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Bean;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Configuration;</span></span></span>
@@ -1608,12 +1609,12 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.orm.jpa.vendor.Database;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.orm.jpa.vendor.OpenJpaVendorAdapter;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.transaction.PlatformTransactionManager;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@Configuration</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@Import</span><span style="color:#000000">({ ConfigJdbc.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> ConfigJpa {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// the provider JPA</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// der Provider JPA</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Bean</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> JpaVendorAdapter jpaVendorAdapter() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        OpenJpaVendorAdapter </span><span style="color:#6a3e3e">openJpaVendorAdapter</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> OpenJpaVendorAdapter();</span></span></span>
@@ -1640,25 +1641,25 @@
 </code></pre></div>
 
 <ul>
-  <li>Zeilen 40–41: Wir erstellen eine Eigenschaft für OpenJPA, die festlegt, wie Fremdschlüssel beim Generieren von Tabellen erzeugt werden sollen. Ohne diese Eigenschaft werden keine Fremdschlüssel generiert. Das Attribut [<span style="color: #2a00ff">ForeignKeyDeleteAction=cascade</span>] ermöglicht die Generierung der Klausel [ON DELETE CASCADE] für diese Fremdschlüssel;
+  <li>Zeilen 40–41: Wir legen eine Eigenschaft für OpenJPA an, die angibt, wie Fremdschlüssel bei der Generierung der Tabellen erstellt werden sollen. Ohne diese Eigenschaft werden keine Fremdschlüssel generiert. Das Attribut [ForeignKeyDeleteAction=cascade] ermöglicht die Generierung des Attributs [ON DELETE CASCADE] für diese Fremdschlüssel;
   </li>
 </ul>
 
-<p>Die Tabellengenerierung erfolgt durch die Laufzeitkonfiguration mit dem Namen [generic-create-dbproduitscategories-openjpa], die zwei Java-Agenten enthält;</p>
+<p>Die Tabellengenerierung erfolgt über die Ausführungskonfiguration mit dem Namen [generic-create-dbproduitscategories-openjpa], die zwei Java-Agenten enthält;</p>
 <p><img src="images/10000000000002470000013B404E4D1B.png" width="408" height="221" style="width:10.8cm;height:5.835cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002470000013B404E4D1B.png" /></p>
 <ul>
-  <li>Der erste Java-Agent ist der Spring-Agent, der bereits mit EclipseLink verwendet wird;
+  <li>Der erste Java-Agent ist der Spring-Agent, der bereits bei EclipseLink verwendet wird;
   </li>
   <li>Der zweite Java-Agent wird von OpenJpa bereitgestellt;
   </li>
 </ul>
 
-<p>Das SQL-Skript für die generierte Datenbank lautet dann wie folgt:</p>
+<p>Das Skript SQL der generierten Datenbank lautet dann wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content">SET FOREIGN_KEY_CHECKS=0;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">USE `dbproduitscategories`;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `categories` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `NOM` VARCHAR(30) COLLATE utf8_general_ci NOT NULL,</span></span>
@@ -1668,7 +1669,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `produits` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `DESCRIPTION` VARCHAR(100) COLLATE utf8_general_ci DEFAULT NULL,</span></span>
@@ -1683,17 +1684,17 @@
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `roles` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `NAME` VARCHAR(30) COLLATE utf8_general_ci NOT NULL,</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  `VERSIONING` BIGINT(20) DEFAULT NULL,</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  `VERSIONING` BIGINT(20) DEFAULT NULL,</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  PRIMARY KEY (`ID`) USING BTREE,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  UNIQUE KEY `U_ROLES_NAME` (`NAME`) USING BTREE</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `users` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `LOGIN` VARCHAR(30) COLLATE utf8_general_ci NOT NULL,</span></span>
@@ -1705,7 +1706,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">) ENGINE=InnoDB</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">AUTO_INCREMENT=1 CHARACTER SET &#x27;utf8&#x27; COLLATE &#x27;utf8_general_ci&#x27;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `users_roles` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `ID` BIGINT(20) NOT NULL AUTO_INCREMENT,</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `VERSIONING` BIGINT(20) DEFAULT NULL,</span></span>
@@ -1721,66 +1722,66 @@
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
 </code></pre></div>
 
-<p>Dies entspricht der Vorgehensweise bei EclipseLink. Wir werden daher die gleichen Korrekturen an den Tabellen vornehmen. Sobald dies erledigt ist, überprüfen Sie, ob die folgenden Testfälle erfolgreich sind:</p>
+<p>Es handelt sich um dasselbe wie bei EclipseLink. Es werden daher dieselben Korrekturen an den Tabellen vorgenommen. Überprüfen Sie anschließend, ob die folgenden Ausführungskonfigurationen erfolgreich sind:</p>
 <ul>
-  <li>[spring-jdbc-generic-04.JUnitTestDao], der die JDBC-Implementierung testet;
+  <li>[spring-jdbc-generic-04.JUnitTestDao], das die Implementierung JDBC testet;
   </li>
-  <li>[spring-jpa-generic-JUnitTestDao-openjpa], der eine OpenJPA-JPA-Implementierung testet;
+  <li>[spring-jpa-generic-JUnitTestDao-openjpa], das die Implementierung JPA und OpenJpa testet;
   </li>
 </ul>
 
-<p>Beide Durchläufe müssen erfolgreich sein.</p>
-<p><a id="refheading118635630560624"></a></p>
-<h2 id="93-erstellen-der-datenbank-dbproduits">9.3. <span style="color: #4f81bd">Erstellen der Datenbank [dbproduits]</span></h2>
-<p>Die Datenbank [dbproduits] wird von den Projekten [spring-jdbc-01 bis 03] verwendet. Sie kann auch aus einer JPA-Entität generiert werden.</p>
+<p>Beide Ausführungen müssen erfolgreich sein.</p>
+<p><span id="refheading118635630560624" name="refheading118635630560624" class="odt-bookmark-anchor"></span></p>
+<h2 id="93-generierung-der-datenbank-dbproduits">9.3. <span style="color: #4f81bd">Generierung der Datenbank [dbproduits]</span></h2>
+<p>Die Basis [dbproduits] wird von den Projekten [spring-jdbc-01 à 03] verwendet. Sie kann auch aus einer Entität JPA generiert werden.</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005030000017604B3B873.png" width="642" height="187" style="display:inline-block; margin:4px;width:16.974cm;height:4.948cm;" class="odt-zoomable" data-zoom-src="images/10000000000005030000017604B3B873.png" /></td></tr></table>
 
 <ul>
-  <li>In [1] die Eclipse-Projekte. Wir verwenden eine MySQL/EclipseLink-Konfiguration. Das Projekt zum Erstellen der Datenbank [dbproduits] ist [generic-create-dbproduits];
+  <li>in [1], den Eclipse-Projekten. Man befindet sich in einer Konfiguration MySQL / EclipseLink. Das Generierungsprojekt für die Datenbank [dbproduits] ist [generic-create-dbproduits];
   </li>
-  <li>in [2] die zu generierende Tabelle [PRODUITS];
+  <li>in [2] ist die zu generierende Tabelle [PRODUITS];
   </li>
 </ul>
 
 <p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und generieren Sie alle Maven-Projekte neu;</p>
-<p><a id="refheading118637630560624"></a></p>
+<p><span id="refheading118637630560624" name="refheading118637630560624" class="odt-bookmark-anchor"></span></p>
 <h3 id="931-maven-konfiguration">9.3.1. <span style="color: #4f81bd">Maven-Konfiguration</span></h3>
-<p>Die Maven-Konfiguration für das Projekt [generic-create-dbproduits] lautet wie folgt:</p>
+<p>Die Maven-Konfiguration des Projekts [generic-create-dbproduits] lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span><span style="color:#000000"> </span><span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;UTF-8&quot;</span><span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project</span><span style="color:#000000"> </span><span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">modelVersion</span><span style="color:#008080">&gt;</span><span style="color:#000000">4.0.0</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">modelVersion</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">dvp.spring.database</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">generic-create-dbproduits</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.0.1-SNAPSHOT</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">jar</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">generic-create-dbproduits</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">description</span><span style="color:#008080">&gt;</span><span style="color:#000000">création de la bases de données [dbproduits] à l&#x27;aide des annotations JPA</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">description</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">org.springframework.boot</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring-boot-starter-parent</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">1.2.3.RELEASE</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- configuration JPA of SGBD --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- Konfiguration JPA des SGBD --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span><span style="color:#000000">dvp.spring.database</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">groupId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">generic-config-jpa</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.0.1-SNAPSHOT</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependency</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span><span style="color:#000000">UTF-8</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project.build.sourceEncoding</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">start-class</span><span style="color:#008080">&gt;</span><span style="color:#000000">spring.data.console.Main</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">start-class</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">java.version</span><span style="color:#008080">&gt;</span><span style="color:#000000">1.7</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">java.version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">properties</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">build</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">plugins</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">plugin</span><span style="color:#008080">&gt;</span></span></span>
@@ -1790,26 +1791,26 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">            </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">plugin</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">plugins</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">build</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">project</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Es gibt nur eine Abhängigkeit in Zeilen 22–26 des Projekts, die die JPA-Schicht konfiguriert. Letztendlich lauten die Abhängigkeiten wie folgt:</p>
+<p>Es gibt nur eine Abhängigkeit (Zeilen 22–26) zum Projekt, das die Schicht JPA konfiguriert. Letztendlich lauten die Abhängigkeiten wie folgt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000ED0000007CE3D2B5DD.png" width="166" height="87" style="display:inline-block; margin:4px;width:4.39cm;height:2.297cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED0000007CE3D2B5DD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><a id="refheading118639630560624"></a></p>
+<p><span id="refheading118639630560624" name="refheading118639630560624" class="odt-bookmark-anchor"></span></p>
 <h3 id="932-die-spring-konfiguration">9.3.2. <span style="color: #4f81bd">Die Spring-Konfiguration</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F40000009B97015BCF.png" width="171" height="109" style="display:inline-block; margin:4px;width:4.521cm;height:2.872cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F40000009B97015BCF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Die Spring-Konfigurationsklasse sieht wie folgt aus:</p>
+<p>Die Spring-Konfigurationsklasse lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> console;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> generic.jdbc.config.ConfigJdbc;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> generic.jpa.config.ConfigJpa;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.EntityManagerFactory;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.apache.tomcat.jdbc.pool.DataSource;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Bean;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Configuration;</span></span></span>
@@ -1817,28 +1818,28 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.data.jpa.repository.config.EnableJpaRepositories;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.orm.jpa.JpaVendorAdapter;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@EnableJpaRepositories</span><span style="color:#000000">(basePackages = { </span><span style="color:#2a00ff">&quot;console&quot;</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@Configuration</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@Import</span><span style="color:#000000">({ ConfigJpa.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> })</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> AppConfig {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// data source</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// Datenquelle</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Bean</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> DataSource dataSource() {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// data source TomcatJdbc</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Datenquelle TomcatJdbc</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        DataSource </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> DataSource();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// configuration access JDBC</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Zugriffskonfiguration JDBC</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">.setDriverClassName(ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">DRIVER_CLASSNAME</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">.setUsername(ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">USER_DBPRODUITS</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">.setPassword(ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">PASSWD_DBPRODUITS</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">.setUrl(ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">URL_DBPRODUITS</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// initially open connections</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// anfänglich offene Verbindungen</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">.setInitialSize(5);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// result</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Ergebnis</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// EntityManagerFactory</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Bean</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> EntityManagerFactory entityManagerFactory(JpaVendorAdapter </span><span style="color:#6a3e3e">jpaVendorAdapter</span><span style="color:#000000">, DataSource </span><span style="color:#6a3e3e">dataSource</span><span style="color:#000000">) {</span></span></span>
@@ -1849,30 +1850,30 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">factory</span><span style="color:#000000">.afterPropertiesSet();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#6a3e3e">factory</span><span style="color:#000000">.getObject();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zeile 18: Wir importieren die Beans aus der Klasse [ConfigJpa] (<a href="#refheading10529020828969171"><u><span style="color: #0563c1">Abschnitt 7.3</span></u></a>);
+  <li>Zeile 18: Die Beans der Klasse [ConfigJpa] (Abschnitt<a href="spring-data-jpa-eclipselink.html#refheading10529020828969171"><u><span style="color: #0563c1"> 7.3</span></u></a>) werden importiert;
   </li>
-  <li>Zeilen 22–35: Wir definieren die Datenquelle [dataSource] neu. In [ConfigJpa] ist die Datenquelle die Datenbank [dbproduitscategories]. Hier ist es die Datenbank [dbproduits];
+  <li>Zeilen 22–35: Die Datenquelle [dataSource] wird neu definiert. In [ConfigJpa] ist die Datenquelle die Datenbank [dbproduitscategories]. Hier wird es die Datenbank [dbproduits] sein;
   </li>
-  <li>Zeilen 38–46: Wir definieren die [<span style="color: #000000">entityManagerFactory]</span>-Bean <span style="color: #000000">aus der Klasse [ConfigJpa] </span>neu<span style="color: #000000">. In dieser Klasse waren die JPA-Entitäten [Product, Category]. Hier ist es nur [Product], und es hat nicht dieselbe Definition wie in dem Projekt, das die JPA-Schicht konfiguriert;</span>
+  <li>Zeilen 38–46: Die Bean [entityManagerFactory] <span style="color: #000000">der Klasse [ConfigJpa] </span>wird neu definiert<span style="color: #000000">. In dieser Klasse lauteten die Entitäten JPA ursprünglich [Produit, Categorie]. Hier ist es lediglich [Produit], und sie hat nicht dieselbe Definition wie in dem Projekt, das die Schicht JPA konfiguriert;</span>
   </li>
-  <li><span style="color: #000000">Zeile 42: Um diese neue JPA-Entität zu definieren, verweisen wir auf die in der Datei [META-INF/persistence.xml] definierten JPA-Entitäten:</span>
+  <li><span style="color: #000000">Zeile 42: Um diese neue Entität JPA zu definieren, wird auf die Entitäten JPA verwiesen, die in der Datei [META-INF/persistence.xml] definiert sind:</span>
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000EB000000CD31EB1A97.png" width="164" height="143" style="display:inline-block; margin:4px;width:4.35cm;height:3.794cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB000000CD31EB1A97.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p><span style="color: #000000">Die Datei [persistence.xml] sieht wie folgt aus:</span></p>
+<p><span style="color: #000000">Die Datei [persistence.xml] lautet wie folgt:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span><span style="color:#000000"> </span><span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;UTF-8&quot;</span><span style="color:#008080">?&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">persistence</span><span style="color:#000000"> </span><span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">xmlns</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/xml/ns/persistence&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">xmlns:xsi</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#7f007f">xsi:schemaLocation</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">persistence-unit</span><span style="color:#000000"> </span><span style="color:#7f007f">name</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;generic-jpa-entities-dbproduits&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">transaction-type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;RESOURCE_LOCAL&quot;</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- entities JPA --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">&lt;!-- Entitäten JPA --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">class</span><span style="color:#008080">&gt;</span><span style="color:#000000">generic.jpa.entities.dbproduits.Produit</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">class</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">exclude-unlisted-classes</span><span style="color:#008080">&gt;</span><span style="color:#000000">true</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">exclude-unlisted-classes</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">persistence-unit</span><span style="color:#008080">&gt;</span></span></span>
@@ -1880,33 +1881,34 @@
 </code></pre></div>
 
 <ul>
-  <li><span style="color: #000000">Zeile 6: die einzelne JPA-Entität;</span>
+  <li><span style="color: #000000">Zeile 6: die einzige Entität JPA;</span>
   </li>
-  <li><span style="color: #000000">Zeile 4: der Name der Persistenz-Einheit [generic-jpa-entities-dbproduits], auf die in der [entityManagerFactory]-Bean verwiesen wird;</span>
+  <li><span style="color: #000000">Zeile 4: der Name der Persistenz-Einheit [generic-jpa-entities-dbproduits], auf die in der Bean [entityManagerFactory] verwiesen wird;</span>
   </li>
 </ul>
-<p><a id="refheading118641630560624"></a></p>
-<h3 id="933-die-jpa-entitat-product">9.3.3. <span style="color: #4f81bd">Die JPA-Entität [Product]</span></h3>
+
+<p><span id="refheading118641630560624" name="refheading118641630560624" class="odt-bookmark-anchor"></span></p>
+<h3 id="933-die-entitat-jpa-produit">9.3.3. <span style="color: #4f81bd">Die Entität JPA [Produit]</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000012F000000900CCA377E.png" width="212" height="101" style="display:inline-block; margin:4px;width:5.609cm;height:2.665cm;" class="odt-zoomable" data-zoom-src="images/100000000000012F000000900CCA377E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Die JPA-Entität ist im Projekt [mysql-config-jpa-eclipselink] wie folgt definiert:</p>
+<p>Die Entität JPA ist im Projekt [mysql-config-jpa-eclipselink] wie folgt definiert:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> generic.jpa.entities.dbproduits;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> generic.jdbc.config.ConfigJdbc;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.Column;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.Entity;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.GeneratedValue;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.GenerationType;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.Id;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> javax.persistence.Table;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@Entity</span><span style="color:#000000">(name=</span><span style="color:#2a00ff">&quot;Produit1&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@Table</span><span style="color:#000000">(name = ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">TAB_PRODUITS</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Produit {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// fields</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// Felder</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Id</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@GeneratedValue</span><span style="color:#000000">(strategy = GenerationType.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">IDENTITY</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Column</span><span style="color:#000000">(name = ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">TAB_PRODUITS_ID</span><span style="color:#000000">)</span></span></span>
@@ -1919,12 +1921,12 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">double</span><span style="color:#000000"> </span><span style="color:#0000c0">prix</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Column</span><span style="color:#000000">(name = ConfigJdbc.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">TAB_PRODUITS_DESCRIPTION</span><span style="color:#000000">, length = 100, nullable = </span><span style="font-weight:bold;color:#7f0055">false</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> String </span><span style="color:#0000c0">description</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// manufacturers</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// Konstruktoren</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Produit() {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Produit(</span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">id</span><span style="color:#000000">, String </span><span style="color:#6a3e3e">nom</span><span style="color:#000000">, </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">categorie</span><span style="color:#000000">, </span><span style="font-weight:bold;color:#7f0055">double</span><span style="color:#000000"> </span><span style="color:#6a3e3e">prix</span><span style="color:#000000">, String </span><span style="color:#6a3e3e">description</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">id</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">id</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">nom</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">nom</span><span style="color:#000000">;</span></span></span>
@@ -1932,48 +1934,49 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">prix</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">prix</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">description</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">description</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// getters and setters</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// Getter und Setter</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    ...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Dies ist eine JPA-Definition, die mittlerweile zum Standard geworden ist. Beachten Sie folgende Punkte:</p>
+<p>Es handelt sich um eine mittlerweile klassische Definition von JPA. Es sei lediglich auf folgende Punkte hingewiesen:</p>
 <ul>
-  <li>Zeile 12: Wir haben der Entität einen Namen gegeben [Product1]. Standardmäßig entspricht der Name einer Entität dem Klassennamen, in diesem Fall [Product]. Da es jedoch im selben Projekt eine weitere JPA-Entität namens [Product] gibt, wurde bereits vor Beginn der Ausführung ein Fehler gemeldet. Wir haben das Problem folgendermaßen gelöst:
+  <li>Zeile 12: Der Entität wurde der Name [Produit1] zugewiesen. Standardmäßig entspricht der Name einer Entität dem Namen der Klasse, in diesem Fall [Produit]. Da es jedoch im selben Projekt eine weitere Entität mit dem Namen JPA [Produit] gibt, wurde bereits vor der Ausführung ein Fehler gemeldet. Dieser wurde auf folgende Weise behoben:
   </li>
-  <li>Zeile 24: Die Kategorie ist hier lediglich eine Zahl;
+  <li>Zeile 24: Die Kategorie ist hier eine einfache Nummer;
   </li>
-  <li>es gibt keine Beziehungen zwischen Entitäten. Wir haben es also mit einer sehr einfachen Situation zu tun;
+  <li>es bestehen keine Beziehungen zwischen den Entitäten. Wir haben es also mit einer sehr einfachen Situation zu tun;
   </li>
 </ul>
-<p><a id="refheading118643630560624"></a></p>
-<h3 id="934-die-ausfuhrbare-klasse">9.3.4. <span style="color: #4f81bd">Die ausführbare Klasse</span></h3>
+
+<p><span id="refheading118643630560624" name="refheading118643630560624" class="odt-bookmark-anchor"></span></p>
+<h3 id="934-die-ausfuhrbare-klasse">9.3.4. <span style="color: #4f81bd"><strong>Die ausführbare Klasse</strong></span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000011A000000CCEC88ADFC.png" width="197" height="143" style="display:inline-block; margin:4px;width:5.219cm;height:3.775cm;" class="odt-zoomable" data-zoom-src="images/100000000000011A000000CCEC88ADFC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Die Klasse [CreateDatabase] sieht wie folgt aus:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> console;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.AnnotationConfigApplicationContext;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> CreateDataBase {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">static</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> main(String[] </span><span style="color:#6a3e3e">args</span><span style="color:#000000">) {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// simply instantiate the Spring context to create the database tables [dbproduits]</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// you also need at least one Spring Data Repository, otherwise nothing happens</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Es reicht aus, den Spring-Kontext zu instanziieren, um die Datenbanktabellen zu erstellen [dbproduits]</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Außerdem ist mindestens ein Spring Data Repository erforderlich, sonst passiert nichts</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Travail en cours...&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> AnnotationConfigApplicationContext(AppConfig.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">).close();</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        System.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">out</span><span style="color:#000000">.println(</span><span style="color:#2a00ff">&quot;Travail terminé...&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>Das ist Code, den wir schon kennen.</p>
-<p><a id="refheading118645630560624"></a></p>
-<h3 id="935-eclipselink-generierung">9.3.5. <span style="color: #4f81bd">EclipseLink-Generierung</span></h3>
-<p>Die Tabelle [PRODUCTS] wird mit der folgenden Laufzeitkonfiguration erstellt:</p>
+<p>Diesen Code haben wir bereits kennengelernt.</p>
+<p><span id="refheading118645630560624" name="refheading118645630560624" class="odt-bookmark-anchor"></span></p>
+<h3 id="935-generierung-von-eclipselink">9.3.5. <span style="color: #4f81bd">Generierung von EclipseLink</span></h3>
+<p>Die Tabelle [PRODUITS] wird mit folgender Ausführungskonfiguration angelegt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000180000000EDA91C8454.png" width="269" height="166" style="display:inline-block; margin:4px;width:7.11cm;height:4.389cm;" class="odt-zoomable" data-zoom-src="images/1000000000000180000000EDA91C8454.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002540000011DD1CE4D6F.png" width="375" height="179" style="display:inline-block; margin:4px;width:9.931cm;height:4.748cm;" class="odt-zoomable" data-zoom-src="images/10000000000002540000011DD1CE4D6F.png" /></td></tr></table>
 
 <p>Die Konsolenprotokolle lauten wie folgt:</p>
@@ -2003,15 +2006,15 @@
 <a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="p">[</span><span class="n">EL</span> <span class="ne">Warning</span><span class="p">]:</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">06</span><span class="o">-</span><span class="mi">02</span> <span class="mi">16</span><span class="p">:</span><span class="mi">31</span><span class="p">:</span><span class="mf">20.657</span><span class="o">--</span><span class="n">session_manager_no_partition</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="n">Travail</span> <span class="n">terminé</span><span class="o">...</span>
 </code></pre></div></td></tr></table></div>
-<p>Kehren wir nun zum [MyManager]-Client zurück und aktualisieren die Anzeige [1-2]:</p>
+<p>Kehren wir nun zum Client [MyManager] zurück und aktualisieren wir die Ansicht [1-2]:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003F9000000FE7A311692.png" width="509" height="127" style="display:inline-block; margin:4px;width:13.455cm;height:3.36cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F9000000FE7A311692.png" /></td></tr></table>
 
-<p>In [3] sehen wir, dass eine Tabelle erstellt wurde. Sehen wir uns nun die DDL (Domain Definition Language) der Datenbank an:</p>
+<p>In [3] ist zu sehen, dass eine Tabelle generiert wurde. Überprüfen wir nun die DDL (Domain Definition Language) der Datenbank:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content">SET FOREIGN_KEY_CHECKS=0;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">USE `dbproduits`;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `produits` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  `ID` BIGINT(20) NOT NULL </span><span style="background-color:#ff950e">AUTO_INCREMENT</span><span style="color:#000000">,</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `CATEGORIE` INTEGER(11) NOT NULL,</span></span>
@@ -2028,19 +2031,19 @@
 <p>Wir erhalten tatsächlich die erwartete Tabelle. Um dies zu überprüfen, führen wir die folgende Konfiguration aus:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000135000000B5171749B9.png" width="216" height="127" style="display:inline-block; margin:4px;width:5.72cm;height:3.351cm;" class="odt-zoomable" data-zoom-src="images/1000000000000135000000B5171749B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001180000012F32C6C631.png" width="196" height="212" style="display:inline-block; margin:4px;width:5.181cm;height:5.607cm;" class="odt-zoomable" data-zoom-src="images/10000000000001180000012F32C6C631.png" /></td></tr></table>
 
-<p>Das sollte funktionieren.</p>
-<p><a id="refheading118647630560624"></a></p>
+<p>Sie muss erfolgreich sein.</p>
+<p><span id="refheading118647630560624" name="refheading118647630560624" class="odt-bookmark-anchor"></span></p>
 <h3 id="936-hibernate-generierung">9.3.6. <span style="color: #4f81bd">Hibernate-Generierung</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000FF000000B278A250A4.png" width="178" height="125" style="display:inline-block; margin:4px;width:4.72cm;height:3.295cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FF000000B278A250A4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000C5000000DCCF534775.png" width="138" height="154" style="display:inline-block; margin:4px;width:3.649cm;height:4.075cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C5000000DCCF534775.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und generieren Sie alle Maven-Projekte neu;</p>
-<p>Die Laufzeitkonfiguration lautet wie folgt:</p>
+<p>Die Ausführungskonfiguration lautet wie folgt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000156000000EDC811D2F4.png" width="239" height="166" style="display:inline-block; margin:4px;width:6.331cm;height:4.387cm;" class="odt-zoomable" data-zoom-src="images/1000000000000156000000EDC811D2F4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001670000010D6D82577F.png" width="251" height="188" style="display:inline-block; margin:4px;width:6.65cm;height:4.983cm;" class="odt-zoomable" data-zoom-src="images/10000000000001670000010D6D82577F.png" /></td></tr></table>
 
-<p>Das von Hibernate generierte SQL-Skript lautet wie folgt:</p>
+<p>Das von Hibernate generierte Skript SQL lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content">USE `dbproduits`;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `produits` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  `ID` BIGINT(20) NOT NULL </span><span style="background-color:#ff950e">AUTO_INCREMENT</span><span style="color:#000000">,</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `CATEGORIE` INTEGER(11) NOT NULL,</span></span>
@@ -2054,18 +2057,18 @@
 <span class="odt-code-line"><span class="odt-code-line-content">;</span></span>
 </code></pre></div>
 
-<p><a id="refheading118649630560624"></a></p>
-<h3 id="937-openjpa-generierung">9.3.7. <span style="color: #4f81bd">OpenJpa-Generierung</span></h3>
+<p><span id="refheading118649630560624" name="refheading118649630560624" class="odt-bookmark-anchor"></span></p>
+<h3 id="937-generierung-von-openjpa">9.3.7. <span style="color: #4f81bd">Generierung von OpenJpa</span></h3>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000011F000000F56A35D62E.png" width="201" height="171" style="display:inline-block; margin:4px;width:5.309cm;height:4.531cm;" class="odt-zoomable" data-zoom-src="images/100000000000011F000000F56A35D62E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000C5000000DCCF534775.png" width="138" height="154" style="display:inline-block; margin:4px;width:3.649cm;height:4.075cm;" class="odt-zoomable" data-zoom-src="images/10000000000000C5000000DCCF534775.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p><strong>Hinweis</strong>: Drücken Sie Alt-F5 und generieren Sie alle Maven-Projekte neu;</p>
-<p>Die Laufzeitkonfiguration lautet wie folgt:</p>
+<p>Die Ausführungskonfiguration lautet wie folgt:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000109000000EE6C562D4C.png" width="186" height="167" style="display:inline-block; margin:4px;width:4.911cm;height:4.411cm;" class="odt-zoomable" data-zoom-src="images/1000000000000109000000EE6C562D4C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000023300000134151113A7.png" width="394" height="215" style="display:inline-block; margin:4px;width:10.419cm;height:5.699cm;" class="odt-zoomable" data-zoom-src="images/100000000000023300000134151113A7.png" /></td></tr></table>
 
-<p>Das von OpenJpa generierte SQL-Skript lautet wie folgt:</p>
+<p>Das von OpenJpa generierte Skript SQL lautet wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content">USE `dbproduits`;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">CREATE TABLE `produits` (</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  `ID` BIGINT(20) NOT NULL </span><span style="background-color:#ff950e">AUTO_INCREMENT</span><span style="color:#000000">,</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  `CATEGORIE` INTEGER(11) NOT NULL,</span></span>
